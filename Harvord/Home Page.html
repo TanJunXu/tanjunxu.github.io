@@ -1,0 +1,86 @@
+<html>
+<head><title>Harvord University</title>
+    <link rel="icon" href="Harvordlogo.jpg" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width=1.0, initial-scale=1.0">
+</head>
+
+<script>
+    var cs = 'cs.html';
+    function goToCs() {
+      window.location.href = cs;
+    }
+
+    var it = 'it.html';
+    function goToIt() {
+      window.location.href = it;
+    }
+
+    var se = 'se.html';
+    function goToSe() {
+      window.location.href = se;
+    }
+  </script>
+
+<body>
+    <!--Navigation-->
+    <nav>
+        <img src="harvordlogo.jpg" alt="">
+        <div class="navigation">
+            <ul>
+                <li><a class="active" href="Home Page.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Course.html">Course</a></li>
+                <li><a href="Registration.html">Registration</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                </ul>
+        </div>
+    </nav>
+    </body>
+
+    <!--Home-->
+
+    <section id="Home">
+        <h2>Entrust Your Future with Harvord</h2>
+        <p>The Harvord community hits just the right note on all of our campus stages, creating vibrant, innovative experiences for patrons in our neighborhood and around the world.</p>
+        <div class="btn">
+             <a class="red" href="About.html">Learn More</a>
+             <a class="white" href="Course.html">Visit Courses</a>
+             </div>
+
+</section>
+
+<footer>
+    <div class="footer-col">
+        <h3>Quick Links</h3>
+        <li>Student Portal</li>
+        <li>eLearning</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Programmes</h3>
+            <button onclick="goToCs()">Computer Science</button><br>
+            <button onclick="goToIt()">Information Technology</button><br>
+            <button onclick="goToSe()">Software Engineering</button>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Please provide your email for further offers</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email Address">
+                    <a href="#" class="yellow">Subscribe</a>
+                </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright @2023 All Rights Reserved</p>
+                    <div class="pro-links">
+                        <a href="https://www.facebook.com/Harvard"><i class="bi-facebook"></i></a>   
+                        <a href="https://www.instagram.com/harvard/"><i class="bi-instagram"></i></a>
+                        <a href="https://twitter.com/Harvard"><i class="bi-twitter"></i></a>
+                    </div>
+</footer>
+</html>
